@@ -1,0 +1,26 @@
+{
+  "generator-jhipster": {
+    "applicationIndex": 0,
+    "applicationType": "gateway",
+    "authenticationType": "oauth2",
+    "baseName": "Gateway",
+    "buildTool": "maven",
+    "clientFramework": "none",
+    "devDatabaseType": "postgresql",
+    "enableSwaggerCodegen": true,
+    "enableTranslation": true,
+    "entities": [],
+    "jhiPrefix": "lms",
+    "jwtSecretKey": "YTdjZDNmZjYzOGNiZDk4YjBkYzgwZjhkNTE1MWFjNzA3YjAzMDM3MjJhZmJiNTkwM2I0OWUwMmUyYWIyMjUzNjRlZGNhY2RkZmRmNzVjNTE5NGY2Y2E2MWViY2FiNzUyNDUyMGM2ZDc3YzMyYWEyMzY2NDI2YjNkNjFlZDM5NzY=",
+    "languages": ["en", "fr"],
+    "nativeLanguage": "en",
+    "packageFolder": "com/nextswift/gateway",
+    "packageName": "com.nextswift.gateway",
+    "prodDatabaseType": "postgresql",
+    "reactive": true,
+    "serviceDiscoveryType": "consul",
+    "skipClient": true,
+    "skipUserManagement": true,
+    "testFrameworks": ["cucumber"]
+  }
+}
