@@ -6,8 +6,8 @@ services:
     # volumes:
     #   - ~/volumes/jhipster/Gateway/postgresql/:/var/lib/postgresql/data/
     environment:
-      - POSTGRES_USER=Gateway
-      - POSTGRES_PASSWORD=
+      - POSTGRES_USER=admin
+      - POSTGRES_PASSWORD=admin
       - POSTGRES_HOST_AUTH_METHOD=trust
     healthcheck:
       test: ['CMD-SHELL', 'pg_isready -U $${POSTGRES_USER}']
